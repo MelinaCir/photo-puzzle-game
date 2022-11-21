@@ -1,6 +1,8 @@
-# Starter kit
+# Photo Puzzle Game
 
-This starter kit includes Jest, Babel, Sass, and webpack to hopefully help with reducing the time spent on boilerplate stuff.
+A puzzle game where you drag och drop pieces to complete the puzzle.
+
+By Melina Cirverius
 
 ## Prerequisites
 
@@ -22,24 +24,3 @@ To start the project in development mode:
 npm start
 ```
 
-### Testing
-
-To run unit tests:
-
-```sh
-npm test
-```
-
-## Deployment
-
-To create a production build:
-
-```sh
-npm run build
-```
-
-Preview the production build locally:
-
-```sh
-npx http-serve dist
-```

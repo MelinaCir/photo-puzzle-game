@@ -11,3 +11,43 @@ h1 {
   letter-spacing: 3px;
   border-bottom: 5px solid $secondary-color;
 }
+
+h2, h3 {
+  text-align: center;
+}
+
+#game {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#board {
+  width: 380px;
+  height: 305px;
+  border: 2px solid #dd2a30;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#board img {
+  width: 75px;
+  height: 75px;
+  border: 0.5px solid #ffeb00;
+}
+
+#pieces {
+  width: 760px;
+  height: 153px;
+  border: 2px solid #dd2a30;
+  margin: 0 auto;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#pieces img {
+  width: 75px;
+  height: 75px;
+  border: 0.5px solid #ffeb00;
+}
