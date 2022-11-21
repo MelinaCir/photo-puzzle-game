@@ -1,0 +1,53 @@
+$primary-color: #ffeb00;
+$secondary-color: #dd2a30;
+$shadow: black;
+
+h1 {
+  color: $primary-color;
+  text-transform: uppercase;
+  text-shadow: -1px 0 $shadow, -1px 0 $shadow, 0 1px $shadow, 1px 0 $shadow,
+    0 -1px $shadow, 1px 0px 0px $shadow, 2px 1px 0px $shadow,
+    3px 2px 0px $shadow, 4px 3px 0px $shadow, 5px 4px 0px $shadow;
+  letter-spacing: 3px;
+  border-bottom: 5px solid $secondary-color;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+#game {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#board {
+  width: 380px;
+  height: 305px;
+  border: 2px solid #dd2a30;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#board img {
+  width: 75px;
+  height: 75px;
+  border: 0.5px solid #ffeb00;
+}
+
+#pieces {
+  width: 760px;
+  height: 153px;
+  border: 2px solid #dd2a30;
+  margin: 0 auto;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#pieces img {
+  width: 75px;
+  height: 75px;
+  border: 0.5px solid #ffeb00;
+}

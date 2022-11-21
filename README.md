@@ -1,29 +1,26 @@
 # Photo Puzzle Game
 
-![Example Puzzle](./.github/example.png "Example Puzzle")
+A puzzle game where you drag och drop pieces to complete the puzzle.
 
-We would like you to implement a photo puzzle game. In this game, the player will be provided shuffled pieces of a photo and a blank grid to drag and drop those pieces. When all the pieces have been dropped at their respective correct slot, the player has won the game. All the scrambled pieces should start from a "rack" which could be arranged in any fashion (row, column, or grid). And the player would pick and drop them into a "template" which should be a grid with blank spaces expecting pieces from the "rack". For simplicity, you can use a square image and divide it into smaller squares as puzzle pieces. Any level of simplicity is accepted for the game.
+By Melina Cirverius
 
-You are free to implement this however you see fit using plain Javascript, and please do not use any frameworks or non-utility libraries. You can use utility libraries, such as Lodash, Ramda, Underscore, etc (collections of functions implementing common tasks). We suggest not spending more than 3 hours on the task (this is both to not put too much work on you, and also to scope how much code we will go through in the interview). We’ll test your game using Chrome, so make sure it works there at least 😉
+## Prerequisites
 
-Try to keep in mind that we might want to extend this game later on (maybe even during the interview), so think about the readability and structure of your code.
+- [Node.js](https://nodejs.org/) (version 14.x or newer)
 
-There are a lot of areas you could choose to focus on in this game, for instance:
+## Development
 
--   Level of puzzle difficulty, number of puzzle pieces
--   Awesome pics to use as the puzzle. Static or dynamic?
--   Does a player get points? Is there timing involved? A scoreboard?
--   Fancy animations or pure-and-simple?
--   Responsive design that works for different screen sizes?
--   Single-player? Local multi-player? Networked multi-player? 🙀
--   Accessibility?
+First install dependencies:
 
-(Beware that if you try and focus on all of these, you’ll probably spend more than the 3 hours, so we advise you to just choose a few)
+```sh
+npm install
+```
 
-It would be helpful if you could document your project (through comments or README files) and explain some of the decisions/assumptions you have made. Given the short time constraints, please also make notes of future steps you could take to make the application better.
+### Running in development mode
 
-We have created a starter kit project to help you with the boilerplate. It includes Jest, Babel, Sass, and Webpack. You can find this starter kit attached to this email. **Using the starter kit is completely optional though, so feel free to either use all of it, some of it, or none at all.**
+To start the project in development mode:
 
-When you are done, upload your task to a public repo and share it with us.
+```sh
+npm start
+```
 
-Don't hesitate to get in touch with us at any time throughout this task if you have any questions. We realize and appreciate that you’re taking personal time out to complete this task, so we’re happy to help.
